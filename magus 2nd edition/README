@@ -1,0 +1,171 @@
+
+      MAGUS, 2nd edition, by Ronny Wester
+
+This a sorry attempt at making a manual. I have developed this game 
+during a period of about four years (not that it is apparent ;-) and the controls
+have become second nature to me. It is quite likely that I will forget to
+mention something...mail me if anything is unclear and I will attempt to sort
+it out.
+
+
+Objective:
+
+To have fun - or as an option to waste the bad mage in the citadel. 
+Killing him/her/it wins the game.
+Almost all NPCs are hostile bogeys - the exceptions are small brown furry
+creatures wearing hats. Keep giving them things and they will eventually give 
+you things. They like heavy objects and do not want spells. Do NOT kill them
+or you will be punished!
+
+
+Running the game:
+
+Pretty straightforward. MAKE SURE YOUR MOUSEDRIVER IS LOADED (I was too lazy 
+to check) and that MAGUS.ART, WORLD.MGS and EGAVGA.BGI is in the current 
+directory and run MAGUS.EXE. The game runs in 640x480x16 (VGA Hi). Mouse 
+controls only (it was developed on an Atari. They all have mice).
+NOTE: 2nd edition has some keyboard controls.
+
+
+Creating characters:
+
+A dialog box will appear. Click arrow buttons to select character. They differ
+in skills, speed, the terrain they can traverse and their initial equipment.
+You may change the sex of some characters by clicking their icons. This changes
+the visual appearance only - no affect on gameplay or attributes.
+Enter a name for the character and press OK. You will have the option of 
+editing (some of) the attributes of the character. 
+
+When done you will return to the original dialog where you may enter more 
+characters (multiplayer is real fun!). When satisfied press "Done".
+
+
+Playing the game:
+
+
+The Display:
+At the left is the status/control panel. At the right is the playing area.
+At the bottom is a message area.
+
+
+Control buttons:
+NextPC   - Switch computer ;-), Seriously, go to next Player Character.
+End turn - End turn. Computer characters will act.
+Sound    - Toggles sound effects (really awful speaker sound!)
+Drop     - Drop an item from current characters inventory
+Quit     - Quit game. You will be asked to confirm this.
+           You will have the option of saving an aborted game.
+	   This game will automatically be resumed next time.
+
+
+Controlling the character:
+
+Clicking the left button on an empty adjacent square moves the character,
+provided it can reside in that square and that it has movement points left.
+
+Clicking the left button on yourself allows you to pick up any items there.
+(A dialog box will appear)
+
+Clicking the left button on an adjacent character enables interaction mode.
+
+Clicking the right button on a character acts upon the character. Exactly what
+happens depends on what the character is holding in its hands.
+
+Nothing - Throws a punch.
+Weapon  - Uses weapon.
+(Note: Some weapons require that target be immediately adjacent; others that
+target is NOT immediately adjacent, eg bow. Yet others have no restrictions - 
+apart from LineOfSight of course)
+Spell   - Casts spell.
+Potion  - Drinks it (may only click yourself with potions).
+
+You may only act on squares you see (ie non-black).
+
+
+Inventory controls:
+
+If a characters load exceeds its strength (with some exceptions) it cannot
+move about. 
+NOTE: In 2nd edition characters can move, but get reduced MP's.
+
+It can do everything else though, including using the teleport
+spell. The load will go red when this happens.
+NOTE: The load display is not always updated correctly. I think it is when 
+you give items away or something like that. Please let me know what causes it,
+cause I keep forgetting to fix it...
+
+The inventory is divided into three sections.
+Top    - What the character holds in its hands.
+Middle - What the character is wearing
+Bottom - What's in the characters backpack (they all have one!)
+
+Clicking an inventory item with the left button tells you what it is, along 
+with its status (-7 to +7 or something. Positive is good).
+
+Clicking an item with the right button will move it (if possible). Ie weapons 
+will be wielded, armour worn etc. Some items are incompatible with others.
+Note that this frequently costs movement points.
+
+Shift + left click drops an item.
+NOTE: The drop button is another way to drop items. They are equivalent.
+
+A character may wield two weapons. This reduces its skill with 5 but gives
+it two attacks instead of one.
+
+
+Spells:
+Spells are items. They look like pieces of paper with pictures on them.
+Try them out. Some spells (grey and red) can be used by non-mages.
+Some spells are beneficial, others not.
+The confusion spell is particulary funny :-)
+Just about all spells can be used on yourself as well as on other characters.
+
+Potions:
+Most potions raise an attribute when drunk. Some raises two attributes and 
+lowers one (White & Black).
+Try them out (ie I do not recall which does what). They remain the same across
+games.
+
+
+Game play:
+
+Players start at roughly (100, 15). The citadel is at (100, 300) somewhere.
+Opposition will be increasingly difficult the further from the starting point
+the players travel.
+
+Games are played in turns. Characters have a number of movement points (MP:s) 
+per turn. This can be changed by potions, amulets and spells. When you are
+satisfied with your movements (or out of MP:s more likely) you press the 
+End Turn button.
+
+Waste the bad guys! Characters will earn levels as they go...
+
+
+Some special items:
+
+Chock   - Lightning bolt hammer. Is wielded by wisdom rather than agility.
+Amulets - Raises attributes.
+Rings   - Green recovers lost health quicker, Blue - mana.
+Focus   - Raises strength
+Bubble  - Increases characters maximum load.
+Negator - Makes character immune to many spells (including beneficial ones!)
+Ghostblade - "long range sword"
+Sunbow - Requires no arrows
+Faithful - Arrow that returns
+Falling star - Wishing spell. You have to know the name of the 
+               object to wish for though.
+Enchant - Raises the status of an item of your choice.
+
+
+Known problems:
+Some of my friends have reported multicoloured lines in the message area.
+I have never seen them myself and have no clue what is causing them.
+
+Occasionally (very seldom) the game crashes when characters are killed.
+Havent got a clue on that one either. It has happened once in four years
+on my Atari and twice in a few months on the PC.
+
+Best of luck! Please let me know what you think...
+
+Ronny
+ronny@rat.se
