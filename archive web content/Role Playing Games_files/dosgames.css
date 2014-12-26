@@ -1,0 +1,75 @@
+a.m
+{
+	TEXT-DECORATION: none;
+	FONT-FAMILY: Verdana, Arial, Tahoma, Sans-Serif;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+}
+
+a.m:hover
+{
+	TEXT-DECORATION: underline;
+	COLOR: #006699;
+}
+
+a:hover
+{
+	COLOR: #339933;
+}
+
+a.nl
+{
+	TEXT-DECORATION: underline;
+	COLOR: #000066;
+}
+
+td.nav
+{
+	BACKGROUND-COLOR: #FFFFE0;
+	BORDER-COLOR: #cccca9;
+	BORDER-STYLE: solid;
+	BORDER-WIDTH: 1px;
+	FONT-WEIGHT: bold;
+}
+
+td.contactbox
+{
+	BACKGROUND-COLOR: #FFFFE0;
+	BORDER-COLOR: #000000;
+	BORDER-STYLE: solid;
+	BORDER-WIDTH: 1px;
+	padding: 10px;
+}
+
+.menu
+{
+	FONT-FAMILY: Verdana, Arial, Tahoma, Sans-Serif;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	COLOR: #000000;
+}
+
+.contenthead
+{
+	FONT-FAMILY: Verdana, Arial, Tahoma, Sans-Serif;
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+	COLOR: #FFFFFF;
+	TEXT-ALIGN: center;
+	PADDING-BOTTOM: 3px;
+}
+
+.content
+{
+	FONT-FAMILY: Verdana, Arial, Tahoma, Sans-Serif;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+}
+
+.norm
+{
+	BACKGROUND-COLOR: #FFFFFF;
+	BORDER-COLOR: #000000;
+	BORDER-STYLE: solid;
+	BORDER-WIDTH: 1px;
+}
