@@ -43,7 +43,7 @@ Most likely images, in paletted format
 Game executable, contains all code plus game information.
 
 **SDUSB32.DSD**
-Direct-Stream Digital (DSD) is the trademark name used by Sony and Philips for their system of digitally recreating audible signals for the Super Audio CD (SACD). 
+Direct-Stream Digital (DSD) is the trademark name used by Sony and Philips for their system of digitally recreating audible signals for the Super Audio CD (SACD).
 
 **SOUND.CFG**
 Sound configuration file.
@@ -70,18 +70,19 @@ Some basic info and link about Magus, from the Rogue Class Linux wiki.
 **[Magus on DOSGames.com](https://raw.githubusercontent.com/cxong/MagusPreservation/master/archive%20web%20content/Role%20Playing%20Games.html)**
 A nice description and a working download link.
 
-##Classes (stats TBA)
-- Shaman (elf male/female)
-- Elf (elf male/female)
-- Wizard (human male/female)
-- Barbarian (human male/female)
-- Knight (human male/female)
-- Duck (duck)
-- Dwarf (dwarf male/female)
-- Druid (dward male/female)
-- Duck mage (duck)
+## [Classes](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L272)
+Class | Speed | Strength | Wisdom | Skill | Health | Power | Inventory
+------|-------|----------|--------|-------|--------|-------|------
+Shaman | 6 | 9 | 15 | 7 | 30 | 40 | elven cloak, staff, healing spell, phantom spell, speed spell
+Wizard | 4 | 12 | 12 | 10 | 50 | 50 | cloak, dagger, fireball spell, teleport spell, vision spell
+Elf | 6 | 14 | 0 | 15 | 90 | 0 | 60, 4, 5, 16
+Barbarian | 4 | 17 | 0 | 15 | 120 | 0 | 45, 17, 5, 16
+Knight | 4 | 24 | 0 | 11 | 90 | 0 | 1, 18, 11, 10
+Duck | 5 | 14 | 0 | 17 | 100 | 0 | mace, leather, gloves, bow, arrows
+Dwarf | 4 | 20 | 0 | 12 | 120 | 0 | 3, 17, 35
+Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, dagger, confusion spell, chaos spell, freeze spell
 
-##Enemies (stats TBA)
+## Enemies (stats TBA)
 - Orch (A, B, C)
 - ChaosKnight
 - Spirit
@@ -115,7 +116,7 @@ A nice description and a working download link.
 - The Dark One
 - Small one
 
-##Ranks
+## Ranks
 - Nobody
 - Amateur
 - Novice
@@ -129,7 +130,7 @@ A nice description and a working download link.
 - ArchMaster
 - Legend
 
-##Items
+## Items
 - Sword
 - 2H-Sword
 - Dagger
