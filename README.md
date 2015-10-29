@@ -75,11 +75,11 @@ Class | Speed | Strength | Wisdom | Skill | Health | Power | Inventory
 ------|-------|----------|--------|-------|--------|-------|------
 Shaman | 6 | 9 | 15 | 7 | 30 | 40 | elven cloak, staff, healing spell, phantom spell, speed spell
 Wizard | 4 | 12 | 12 | 10 | 50 | 50 | cloak, dagger, fireball spell, teleport spell, vision spell
-Elf | 6 | 14 | 0 | 15 | 90 | 0 | 60, 4, 5, 16
-Barbarian | 4 | 17 | 0 | 15 | 120 | 0 | 45, 17, 5, 16
-Knight | 4 | 24 | 0 | 11 | 90 | 0 | 1, 18, 11, 10
+Elf | 6 | 14 | 0 | 15 | 90 | 0 | elven cloak, dagger, bow, arrows
+Barbarian | 4 | 17 | 0 | 15 | 120 | 0 | mace, studded leather, bow, arrows
+Knight | 4 | 24 | 0 | 11 | 90 | 0 | sword, chainmail, shield, helmet
 Duck | 5 | 14 | 0 | 17 | 100 | 0 | mace, leather, gloves, bow, arrows
-Dwarf | 4 | 20 | 0 | 12 | 120 | 0 | 3, 17, 35
+Dwarf | 4 | 20 | 0 | 12 | 120 | 0 | axe, studded leather, gloves
 Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, dagger, confusion spell, chaos spell, freeze spell
 
 ## Enemies (stats TBA)
@@ -130,7 +130,7 @@ Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, dagger, confusion spell, chaos spell
 - ArchMaster
 - Legend
 
-## Items
+## [Items](https://github.com/cxong/MagusPreservation/blob/master/source/ITEMS.C#L11)
 - Sword
 - 2H-Sword
 - Dagger
