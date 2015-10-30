@@ -133,6 +133,8 @@ The Dark One | 7 | 80 | 25 | 25 | 500 | 1000 | persistent | golden armor, golden
 
 "persistent" rank probably means they are ignored by the random generator, they could be spawned on special occasions or summoned
 
+[Skill determines how likely they'll hit](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L2809)
+
 Note: some enemy items are OR'd with 0x1000; this probably means those items can't be dropped?
 
 ## [Player Levels](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L240)
@@ -156,81 +158,104 @@ Level | Name | XP
 11 | Legend | 2000
 
 ## [Items](https://github.com/cxong/MagusPreservation/blob/master/source/ITEMS.C#L11)
-- Sword
-- 2H-Sword
-- Dagger
-- Crossbow
-- Throwing star
-- Confusion
-- Fireblade
-- Helmet
-- Shield
-- Leather
-- Armour
-- Emerald
-- Emerald ring
-- Arrows
-- Studded leather
-- Chainmail
-- Lightning bolt
-- FireBall
-- Portal
-- Fire
-- Water
-- Earth
-- Skeleton
-- Zombie
-- Vision
-- Phantom
-- Sleep
-- Slayer
-- FastFeet
-- Heal
-- StoneAxe
-- Gloves
-- Darkness
-- Sabre
-- Staff
-- Chaos
-- Demon
-- Cloak
-- Big shield
-- Big helmet
-- Opal ring
-- Club
-- Topaz
-- Opal
-- Stonefoot
-- Lightning
-- DragonTooth
-- Sun's Edge
-- SilverBow
-- Bubble
-- Faithful
-- SunBow
-- Chock
-- BloodTaste
-- SunArmour
-- ShadowCloak
-- Elven cloak
-- Focus
-- Terror
-- Berzerk
-- Protection
-- Leadball
-- Wooden shield
-- Wakizashi
-- SunHelmet
-- SunShield
-- ThunderStorm
-- HyperSpace
-- Panic
-- Shooting star
-- Inferno
-- Negator
-- Chain'n'ball
-- SunGloves
-- Delay
-- Ghostblade
-- Enchant
-- Purify
+
+This table is sorted by: type, equips, value; it is ordered differently in the source code
+
+Name | Type | Weight | Equips | Value | Price
+-----|------|--------|--------|-------|------
+Sword | weapon | 4 | one hand | 9 | 20
+Wakizashi | weapon | 2 | one hand | 9 | 20
+Axe | weapon | 5 | one hand | 10 | 20
+Sabre | weapon | 7 | one hand | 10 | 0
+Club | weapon | 5 | one hand | 11 | 20
+DragonTooth | weapon | 4 | one hand | 13 | 150
+Sun's Edge | weapon | 5 | one hand | 13 | 150
+Staff | weapon | 3 | two hands | 10 | 0
+Chain'n'ball | weapon | 5 | two hands | 10 | 0
+2H-Sword | weapon | 8 | two hands | 15 | 75
+StoneAxe | weapon | 10 | two hands | 15 | 0
+Slayer | weapon | 8 | two hands | 17 | 150
+BloodTaste | weapon | 9 | two hands | 19 | 200
+Dagger | mixed weapon | 1 | one hand | 6 | 10
+Bow | ranged weapon | 3 | two hands | 9 | 20
+SilverBow | ranged weapon | 3 | two hands | 11 | 100
+Crossbow | ranged weapon | 4 | two hands | 12 | 20
+Leadball | throwing weapon | 1 | one hand | 8 | 10
+Throwing star | throwing weapon | 1 | one hand | 9 | 5
+Vision | spell | 0 | one hand | 2 | 0
+Protection | spell | 0 | one hand | 2 | 0
+Delay | spell | 0 | one hand | 2 | 0
+Phantom | spell | 0 | one hand | 3 | 0
+Berzerk | spell | 0 | one hand | 3 | 0
+Confusion | spell | 0 | one hand | 5 | 0
+FireBall | spell | 0 | one hand | 5 | 0
+Heal | spell | 0 | one hand | 5 | 20
+Stonefoot | spell | 0 | one hand | 6 | 0
+Portal | spell | 0 | one hand | 7 | 0
+Air | spell | 0 | one hand | 7 | 0
+Terror | spell | 0 | one hand | 7 | 0
+Water | spell | 0 | one hand | 8 | 0
+Earth | spell | 0 | one hand | 8 | 0
+Sleep | spell | 0 | one hand | 8 | 0
+FastFeet | spell | 0 | one hand | 8 | 0
+Lightning bolt | spell | 0 | one hand | 10 | 0
+Fire | spell | 0 | one hand | 10 | 0
+Darkness | spell | 0 | one hand | 10 | 0
+Inferno | spell | 0 | one hand | 12 | 0
+Skeleton | spell | 0 | one hand | 15 | 0
+Zombie | spell | 0 | one hand | 15 | 0
+Lightning | spell | 0 | one hand | 15 | 0
+Chaos | spell | 0 | one hand | 20 | 0
+HyperSpace | spell | 0 | one hand | 20 | 0
+Panic | spell | 0 | one hand | 20 | 0
+Purify | spell | 0 | one hand | 20 | 0
+Demon | spell | 0 | one hand | 25 | 0
+ThunderStorm | spell | 0 | one hand | 25 | 0
+Helmet | armor | 3 | head | 2 | 20
+Big helmet | armor | 4 | head | 3 | 20
+SunHelmet | armor | 2 | head | 3 | 70
+Wooden shield | armor | 2 | one hand | 3 | 10
+Shield | armor | 3 | one hand | 4 | 20
+Big shield | armor | 6 | one hand | 6 | 20
+SunShield | armor | 3 | one hand | 6 | 70
+Leather | armor | 3 | body | 2 | 20
+Studded leather | armor | 4 | body | 3 | 20
+Chainmail | armor | 6 | body | 5 | 60
+Armour | armor | 7 | body | 6 | 75
+SunArmour | armor | 4 | body | 6 | 150
+Gloves | armor | 1 | hands | 1 | 20
+SunGloves | armor | 1 | hands | 2 | 20
+Cloak | armor | 1 | shoulders | 1 | 20
+Elven cloak | armor | 1 | shoulders | 3 | 50
+ShadowCloak | armor | 3 | body, shoulders | 7 | 20
+Emerald | gadget | 1 | neck | 0 | 100
+Topaz | gadget | 1 | neck | 0 | 300
+Opal | gadget | 1 | neck | 0 | 150
+Emerald ring | gadget | 0 | finger | 0 | 150
+Opal ring | gadget | 0 | finger | 0 | 150
+Focus | gadget | 1 | hands | 0 | 150
+Arrows | arrows | 0 | | 0 | 10
+Faithful | arrows | 0 | | 0 | 50
+Bubble | trinket | 0 | | 0 | 150
+Negator | trinket | 0 | | 0 | 150
+Blue | potion | 1 | one hand | 0 | 100
+Green | potion | 1 | one hand | 0 | 100
+Yellow | potion | 1 | one hand | 0 | 100
+Brown | potion | 1 | one hand | 0 | 100
+Red | potion | 1 | one hand | 0 | 100
+Grey | potion | 1 | one hand | 0 | 100
+White | potion | 1 | one hand | 0 | 100
+Purple | potion | 1 | one hand | 0 | 100
+Black | potion | 1 | one hand | 0 | 100
+Fireblade | special | 2 | one hand | 0 | 150
+Shooting star | special | 0 | one hand | 0 | 300
+Enchant | special | 0 | one hand | 0 | 100
+Chock | special | 4 | one hand | 2 | 150
+SunBow | special | 3 | two hands | 11 | 150
+Ghostblade | special | 4 | one hand | 9 | 150
+
+- The value attribute takes on different meanings depending on the item type:
+  - [for armor, it's the defensive value](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L2754)
+  - [for weapons, it's the base damage](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L2858)
+  - [for spells, it's the mana required](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L3524)
+  - [special items have fixed damage output](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L4168)
