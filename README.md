@@ -7,7 +7,11 @@ Magus is an obscure DOS rogue-like released in the mid-90's, by Ronny Wester, be
 
 This project is dedicated to documenting and reverse engineering the game.
 
-##File Listing (2nd edition)
+## [Source Code](https://github.com/cxong/MagusPreservation/tree/master/source)
+
+Original source code saved from link rot by SG ["Stats Guy"]; look out for an SDL port some time...
+
+## File Listing (2nd edition)
 **EGAVGA.BGI**
 EGA/VGA driver, from Borland. No interesting strings.
 
