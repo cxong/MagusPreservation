@@ -86,6 +86,8 @@ Duck | 5 | 14 | 0 | 17 | 100 | 0 | mace, leather, gloves, bow, arrows
 Dwarf | 4 | 20 | 0 | 12 | 120 | 0 | axe, studded leather, gloves
 Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, dagger, confusion spell, chaos spell, freeze spell
 
+- Power is mana pool
+
 ## [Enemies](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L292)
 
 *The table is sorted by rank; it appears in code in a different order*
@@ -133,19 +135,25 @@ The Dark One | 7 | 80 | 25 | 25 | 500 | 1000 | persistent | golden armor, golden
 
 Note: some enemy items are OR'd with 0x1000; this probably means those items can't be dropped?
 
-## Ranks
-- Nobody
-- Amateur
-- Novice
-- Apprentice
-- Trained
-- Good
-- Experienced
-- Expert
-- Elite
-- Master
-- ArchMaster
-- Legend
+## [Player Levels](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L240)
+At the end of a game, the player gets a ranking e.g. "Nobody" or "Apprentice". This is based on the player's level. There is a level cap.
+
+[At every level up, the player gains 10 health and 10 power (if they have wisdom).](https://github.com/cxong/MagusPreservation/blob/master/source/MAGUS.C#L2481)
+
+Level | Name | XP
+------|------|---
+0 | Nobody | 50
+1 | Amateur | 100
+2 | Novice | 200
+3 | Apprentice | 300
+4 | Trained | 400
+5 | Good | 500
+6 | Experienced | 700
+7 | Expert | 900
+8 | Elite | 1200
+9 | Master | 1500
+10 | ArchMaster | 2000
+11 | Legend | 2000
 
 ## [Items](https://github.com/cxong/MagusPreservation/blob/master/source/ITEMS.C#L11)
 - Sword
