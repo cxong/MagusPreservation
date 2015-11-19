@@ -1,3 +1,5 @@
+![logo](https://raw.githubusercontent.com/cxong/MagusPreservation/master/logo_small.png)
+
 Magus Preservation
 =================
 
