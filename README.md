@@ -13,29 +13,13 @@ This project is dedicated to documenting and reverse engineering the game.
 
 Original source code saved from link rot by SG ["Stats Guy"]; look out for an SDL port some time...
 
-## File Listing (2nd edition)
-**EGAVGA.BGI**
-EGA/VGA driver, from Borland. No interesting strings.
-
-**FAMOUS.MGS**
-High scores file
-
-**MAGUS.ART**
-Most likely images, in paletted format
-
-**MAGUS.EXE**
-Game executable, contains all code plus game information.
-
-**WORLD.MGS**
-World map, 2-byte tiles. Unknown which bits determine tile type vs modifiers. Total dimensions: 200*320
-
-##File Listing (3rd edition)
-**DOS4GW.EXE**
-DOS/4GW was a free limited edition of DOS/4G and was included with the Watcom C compiler with a commercial re-distribution license. It was made widely popular by computer games like Doom.
-
-**DSETUP32.EXE**
+## File Listing
+**DSETUP32.EXE (3rd ed)**
 Digital Sound and Music Interface setup for RAW sound files.
 
+**DOS4GW.EXE (3rd ed)**
+DOS/4GW was a free limited edition of DOS/4G and was included with the Watcom C compiler with a commercial re-distribution license. It was made widely popular by computer games like Doom.
+
 **EGAVGA.BGI**
 EGA/VGA driver, from Borland. No interesting strings.
 
@@ -43,19 +27,22 @@ EGA/VGA driver, from Borland. No interesting strings.
 High scores file
 
 **MAGUS.ART**
-Most likely images, in paletted format
+Images, in paletted planar format (see [RonnyWesterPics](https://github.com/cxong/RonnyWesterPics))
 
 **MAGUS.EXE**
 Game executable, contains all code plus game information.
 
-**SDUSB32.DSD**
+**SDUSB32.DSD (3rd ed)**
 Direct-Stream Digital (DSD) is the trademark name used by Sony and Philips for their system of digitally recreating audible signals for the Super Audio CD (SACD).
 
-**SOUND.CFG**
+**SOUND.CFG (3rd ed)**
 Sound configuration file.
 
 **WORLD.MGS**
-World map, 2-byte tiles. Unknown which bits determine tile type vs modifiers. Total dimensions: 200*320
+World map, 2-byte tiles. First byte is flags, second byte an image index (MAGUS.ART). Total dimensions: 200*320
+
+##World Map (click for full size)
+[![map](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map_small.png)](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map.png)
 
 ##Archive web content
 **[Looking for a game [=Magus]](https://raw.githubusercontent.com/cxong/MagusPreservation/master/archive%20web%20content/Looking%20for%20a%20game%20%5B=Magus%5D.html)**
