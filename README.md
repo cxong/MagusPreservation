@@ -85,24 +85,24 @@ Name | Speed | Strength | Wisdom | Skill | Health | Power | Rank | Inventory
 -----|-------|----------|--------|-------|--------|-------|------|----------
 Skeleton | 4 | 7 | 0 | 7 | 30 | 0 | 0 | chain and ball
 Zombie | 4 | 12 | 0 | 10 | 10 | 0 | 0 | cutlass
-Hobgoblin | 5 | 10 | 0 | 9 | 10 | 0 | 10 | 7, 4, 4, 41
+Hobgoblin | 5 | 10 | 0 | 9 | 10 | 0 | 10 | throwing star, dagger, dagger, cloak
 Goblin | 4 | 8 | 0 | 14 | 30 | 0 | 10 | sword, leather
 Troll | 3 | 20 | 0 | 7 | 100 | 0 | 20 | stone axe
-Orch (A) | 4 | 14 | 0 | 9 | 50 | 0 | 40 | 12, 37
+Orch (A) | 4 | 14 | 0 | 9 | 50 | 0 | 40 | leather, cutlass
 Orch (D) | 4 | 13 | 0 | 10 | 50 | 0 | 40 | bow, arrows
-Magician | 4 | 12 | 10 | 10 | 50 | 30 | 50 | 6, 36, 8, 41, 16
-Monk | 4 | 14 | 11 | 16 | 60 | 20 | 60 | 12, 38, 25, 24, 78, 23
-Warrior | 4 | 12 | 0 | 14 | 80 | 0 | 60 | mace, chainmail, 7, 7, 7
-Orch (B) | 4 | 15 | 0 | 13 | 60 | 0 | 80 | 18, 3, 11
-Orch (C) | 4 | 12 | 12 | 5 | 40 | 20 | 80 | 20, 30, 26, 27, 37
-ChaosKnight | 4 | 22 | 0 | 16 | 100 | 0 | 100 | 43, 13, 2, 35
+Magician | 4 | 12 | 10 | 10 | 50 | 30 | 50 | crossbow, darkness spell, confusion spell, cloak, arrows
+Monk | 4 | 14 | 11 | 16 | 60 | 20 | 60 | leather, staff, earth spell, water spell, slow spell, fire spell
+Warrior | 4 | 12 | 0 | 14 | 80 | 0 | 60 | mace, chainmail, throwing star, throwing star, throwing star
+Orch (B) | 4 | 15 | 0 | 13 | 60 | 0 | 80 | chainmail, axe, shield
+Orch (C) | 4 | 12 | 12 | 5 | 40 | 20 | 80 | fireball spell, sleep spell, skeleton spell, zombie spell, cutlass
+ChaosKnight | 4 | 22 | 0 | 16 | 100 | 0 | 100 | large helmet, armor, two handed sword, gloves
 Ghost | 4 | 10 | 10 | 15 | 20 | 10 | 100 | confusion spell\*, chain and ball\*
-Minotaur | 4 | 20 | 0 | 12 | 80 | 0 | 100 | 17, 45, 42
-Undead | 5 | 17 | 16 | 20 | 70 | 15 | 100 | 20, 27, 45, 17, 15, 26
+Minotaur | 4 | 20 | 0 | 12 | 80 | 0 | 100 | studded leather, mace, large shield
+Undead | 5 | 17 | 16 | 20 | 70 | 15 | 100 | fireball spell, zombie spell, mace, studded leather, green ring, skeleton spell
 Spirit | 5 | 50 | 15 | 15 | 40 | 10 | 120 | chaos spell\*, ghostblade\*, sleep spell
 Sorceror | 5 | 25 | 20 | 20 | 150 | 150 | 120 | chainmail, green ring, fire spell, demon spell, energy spell, sleep spell, lightning spell, two handed sword, negator, freeze spell
-Witchlord | 5 | 20 | 20 | 20 | 100 | 100 | 140 | lightning spell, fire spell, shadow cloak, fireblade, fireball spell, confusion spell, green rign, negator
-DeathKnight | 4 | 40 | 20 | 20 | 200 | 20 | 170 | 42, 3, 13, 10, 20, 35, 75
+Witchlord | 5 | 20 | 20 | 20 | 100 | 100 | 140 | lightning spell, fire spell, shadow cloak, fireblade, fireball spell, confusion spell, green ring, negator
+DeathKnight | 4 | 40 | 20 | 20 | 200 | 20 | 170 | large shield, axe, armor, helmet, fireball spell, gloves, negator
 ChaosWarrior | 4 | 30 | 0 | 19 | 300 | 0 | 200 | large helmet, two handed sword, gloves, armor, cloak
 Guardian | 5 | 22 | 0 | 19 | 200 | 0 | 200 | silver bow, armor, large helmet, gloves, faithful arrow, two handed sword
 DeathLord | 5 | 25 | 20 | 20 | 200 | 100 | 230 | large helmet, armor, gloves, lightning spell, slayer sword, demon spell
