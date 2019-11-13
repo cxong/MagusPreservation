@@ -72,8 +72,9 @@ Elf | 6 | 14 | 0 | 15 | 90 | 0 | elven cloak, dagger, bow, arrows
 Barbarian | 4 | 17 | 0 | 15 | 120 | 0 | mace, studded leather, bow, arrows
 Knight | 4 | 24 | 0 | 11 | 90 | 0 | sword, chainmail, shield, helmet
 Duck | 5 | 14 | 0 | 17 | 100 | 0 | mace, leather, gloves, bow, arrows
+Duck Mage | 5 | 10 | 12 | 9 | 40 | 60 | cloak, dagger, confusion spell, chaos spell, freeze spell
 Dwarf | 4 | 20 | 0 | 12 | 120 | 0 | axe, studded leather, gloves
-Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, dagger, confusion spell, chaos spell, freeze spell
+Druid | 4 | 14 | 10 | 10 | 80 | 60 | cloak, mace, fire spell, air spell, water spell, earth spell
 
 - Power is mana pool
 
