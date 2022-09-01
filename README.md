@@ -42,7 +42,12 @@ Sound configuration file.
 World map, 2-byte tiles. First byte is flags, second byte an image index (MAGUS.ART). Total dimensions: 200*320
 
 ## World Map (click for full size)
-[![map](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map_small.png)](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map.png)
+
+<details>
+  <summary>Spoiler warning</summary>
+
+  [![map](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map_small.png)](https://raw.githubusercontent.com/cxong/MagusPreservation/master/map.png)
+</details>
 
 ## Archive web content
 **[Looking for a game [=Magus]](https://raw.githubusercontent.com/cxong/MagusPreservation/master/archive%20web%20content/Looking%20for%20a%20game%20%5B=Magus%5D.html)**
